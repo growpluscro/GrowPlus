@@ -1,20 +1,20 @@
 .outer {
+  display: flex;
+  display: -webkit-flex;
 	position: absolute;
 	top: 0; bottom: 0;
 	left: 0; right: 0;
-	background-color: white;
-	text-align: center;
-}
-.inner {
-  position: relative;
-  transform: translateY(45%);
-  -webkit-transform: translateY(45%);
-  -ms-transform: translateY(45%);
+	background-color: blue;
+  text-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 img {
-    max-width:100%;
-    display: inline-block;
+  max-width:100%;
 }
-#naslov{
+#naslov {
+  color: white;
+}
 
-}
