@@ -2,18 +2,14 @@
 	position: absolute;
 	top: 0; bottom: 0;
 	left: 0; right: 0;
-	background-color: blue;
+	background-color: white;
 	text-align: center;
 }
-.inner1{
-	height: 15%;
-	width: 100%;
-	background-color: white;
-}
-.inner2{
-	height: 85%;
-	width: 100%;
-	background-color: white;
+.inner {
+  position: relative;
+  transform: translateY(45%);
+  -webkit-transform: translateY(45%);
+  -ms-transform: translateY(45%);
 }
 img {
     max-width:100%;
