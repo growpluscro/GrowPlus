@@ -1,4 +1,5 @@
 img {
+  width: 250px;
   max-width: 100%;
   height:auto;
   display: block;
@@ -8,7 +9,7 @@ img {
 #a {
 	background-color: red;
 }
-@media screen and (max-height: 480px) {
+@media screen and (max-height: 350px) {
 	img {
   		width: 150px;
   		height:auto;
