@@ -1,4 +1,18 @@
-img {
+h1 {
+	font-family: 'Roboto Slab', serif;
+}
+h4 {
+	padding: 2.5% 0 2.5%;
+	color: #555354;
+}	
+p {
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	font-family: 'Roboto Slab', serif;	
+	font-size: 2em;
+}
+#logo {
   width: 300px;
   max-width: 100%;
   height:auto;
@@ -6,3 +20,37 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+.about {
+	height: 100%;
+	background-color: #F0A554;
+}
+.board {
+	height: 100%;
+	background-color: #1BB24B;
+}
+h1#ab {	
+	font-size: 4.5em;
+	padding: 10% 0 2.5%;
+	color: #555354;
+}
+p#ab {
+	font-size: 1.75em;
+	color: #F2F2F2;
+	padding: 5% 25%;
+}
+h1#bo {	
+	font-size: 4.5em;
+	padding: 5% 0 2.5%;
+	color: #F2F2F2;
+}
+p#bo {
+	font-size: 1.75em;
+	color: #555354;
+	padding: 5% 25%;
+}
+.pa {
+	padding: 5% 20%;
+}
+
+
+
