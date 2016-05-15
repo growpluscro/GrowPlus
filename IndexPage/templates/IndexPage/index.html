@@ -22,8 +22,8 @@
 <body>
 	<div id="fullpage">
     	<div class="section">
-            <div>
-                <img id="logo" src="{% static 'img/grow+_logo.jpg' %}" alt="Grow+ logo">
+            <div class="container-fluid">
+                <img id="logo" src="{% static 'img/logo1.png' %}" alt="Grow+ logo">
             </div>
         </div>
     	<div class="section">
@@ -69,7 +69,7 @@
                         </h4>
                     </div>
                     <div id="collapse3" class="panel-collapse collapse text-center">
-                        <div class="panel-body">Find motivation!
+                        <div class="panel-body">Get motivated!
                         </div>
                     </div>
                 </div>
@@ -89,10 +89,13 @@
             </div>
         </div>
         <div class="section">
-            <div class="container-fluid komuna text-center">
-                    <h1 id="ab"></h1>
-                    <p id="ab">
+            <div style="background-image:url({% static 'img/pozadina.png' %})" class="container-fluid komuna text-center">
+                    <h1 id="cm">Community.</h1>
+                    <p id="cm">This is our positive world where you can be a user or registered as coach. Be active on topic, share your story or get motivated with our coaches.
                     </p>
+                    <div style="padding: 5% 0 0">
+                    <button id="botun" type="button" class="btn btn-default">Join our Community!</button>
+                    </div>
             </div>
         </div>
 	</div>

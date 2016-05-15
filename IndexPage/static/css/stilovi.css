@@ -2,6 +2,7 @@ h1 {
 	font-family: 'Roboto Slab', serif;
 }
 h4 {
+	font-family: 'Roboto Slab', serif;
 	padding: 2.5% 2.5% 2.5%;
 	color: #555354;
 }	
@@ -20,7 +21,7 @@ span {
 	padding-right: 2.5vmin;
 }
 #logo {
-  width: 300px;
+  width: 42.5vmin;
   max-width: 100%;
   height:auto;
   display: block;
@@ -37,7 +38,10 @@ span {
 }
 .komuna {
 	height: 100%;
-	background-color: #ffffff;
+	background-color: #F2F2F2;
+	background-position: center bottom;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 }
 h1#ab {	
 	font-size: 10vmin;
@@ -51,7 +55,7 @@ p#ab {
 }
 h1#bo {	
 	font-size: 8vmin;
-	padding: 2.5% 0 2.5%;
+	padding: 5% 0 2.5%;
 	color: #F2F2F2;
 }
 p#bo {
@@ -69,6 +73,21 @@ div.panel-body {
 .pa {
 	padding: 0 35% 0;
 }
-
-
+h1#cm {
+	font-size: 8vmin;
+	padding: 5% 0 2.5%;
+	color: #F0A554;
+}
+p#cm {
+	font-size: 4.5vmin;
+	color: #555354;
+	padding: 0% 10%;
+}
+#botun {
+	background-color: #4CB3ED;
+	font-family: 'Roboto Slab', serif;
+	font-size: 4vmin;
+	color: #F2F2F2;
+	padding: 1% 2.5%;
+}
 
