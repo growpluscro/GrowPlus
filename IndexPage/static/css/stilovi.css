@@ -104,7 +104,7 @@ p#cm {
 		padding: 5% 0 0;
 	}
 	h1#ab {	
-		padding: 5% 0 2.5%;
+		padding: 2.5% 0 2.5%;
 	}
 	p#ab {
 		padding: 2.5% 25%;
@@ -128,10 +128,10 @@ p#cm {
 		padding: 0 5% 0;
 	}
 	h1#bo {	
-		padding: 5% 0 5%;
+		padding: 5% 0 10%;
 	}
 	#lo {
-		padding: 15% 0 0;
+		padding: 25% 0 0;
 	}
 }
 
