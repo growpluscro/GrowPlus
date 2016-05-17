@@ -101,6 +101,7 @@ p#cm {
 @media only screen and (max-width: 769px) and (orientation: landscape) {
 	#lo {
 		width:150px;
+		padding: 5% 0 0;
 	}
 	h1#ab {	
 		padding: 5% 0 2.5%;
@@ -109,18 +110,28 @@ p#cm {
 		padding: 2.5% 25%;
 	}
 	.pa {
-		padding: 0 5% 0;
+		padding: 15% 5% 0;
 	}
 	h1#bo {	
-		padding: 2.5% 0 2.5%;
+		font-size: 6.5vmin;
+		padding: 0 0 1%;
 	}
 	p#bo {
 		padding: 0 10% 0;
+	}
+	a.funkc{
+		font-size: 3.5vmin;
 	}
 }
 @media only screen and (max-width: 769px) and (orientation: portrait) {
 	.pa {
 		padding: 0 5% 0;
+	}
+	h1#bo {	
+		padding: 5% 0 5%;
+	}
+	#lo {
+		padding: 15% 0 0;
 	}
 }
 
