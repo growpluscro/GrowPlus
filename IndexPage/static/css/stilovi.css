@@ -21,7 +21,6 @@ span {
 	padding-right: 2.5vmin;
 }
 #lo {
-  width: 42.5vmin;
   max-width: 100%;
   height:auto;
   display: block;
@@ -97,4 +96,14 @@ p#cm {
 	width: 35%;
 	margin-top: 5%;
 }
+
+@media only screen and (max-width: 769px) and (orientation: landscape) {
+	h1#ab {	
+	padding: 5% 0 2.5%;
+	}
+	p#ab {
+	padding: 2.5% 25%;
+	}
+}
+
 
