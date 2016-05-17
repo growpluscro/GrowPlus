@@ -20,13 +20,17 @@ span {
 	font-size: 3.25vmin;
 	padding-right: 2.5vmin;
 }
-#logo {
+#lo {
   width: 42.5vmin;
   max-width: 100%;
   height:auto;
   display: block;
+  padding: 10% 0 0;
   margin-left: auto;
   margin-right: auto;
+}
+.logo {
+	height: 100%;
 }
 .about {
 	height: 100%;
@@ -89,5 +93,8 @@ p#cm {
 	font-size: 4vmin;
 	color: #F2F2F2;
 	padding: 1% 2.5%;
+	height: 10%;
+	width: 35%;
+	margin-top: 5%;
 }
 
