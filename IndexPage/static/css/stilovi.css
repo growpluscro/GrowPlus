@@ -21,12 +21,13 @@ span {
 	padding-right: 2.5vmin;
 }
 #lo {
-  max-width: 100%;
-  height:auto;
-  display: block;
-  padding: 10% 0 0;
-  margin-left: auto;
-  margin-right: auto;
+  	width:250px;
+  	max-width: 100%;
+  	height:auto;
+  	display: block;
+  	padding: 10% 0 0;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 .logo {
 	height: 100%;
@@ -98,11 +99,28 @@ p#cm {
 }
 
 @media only screen and (max-width: 769px) and (orientation: landscape) {
+	#lo {
+		width:150px;
+	}
 	h1#ab {	
-	padding: 5% 0 2.5%;
+		padding: 5% 0 2.5%;
 	}
 	p#ab {
-	padding: 2.5% 25%;
+		padding: 2.5% 25%;
+	}
+	.pa {
+		padding: 0 5% 0;
+	}
+	h1#bo {	
+		padding: 2.5% 0 2.5%;
+	}
+	p#bo {
+		padding: 0 10% 0;
+	}
+}
+@media only screen and (max-width: 769px) and (orientation: portrait) {
+	.pa {
+		padding: 0 5% 0;
 	}
 }
 
