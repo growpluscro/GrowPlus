@@ -110,7 +110,7 @@ p#cm {
 		padding: 2.5% 25%;
 	}
 	.pa {
-		padding: 2.5% 15% 0;
+		padding: 4% 20% 0;
 	}
 	div.panel-body {
 		font-size: 2vmin;
@@ -128,7 +128,7 @@ p#cm {
 }
 @media only screen and (max-width: 769px) and (orientation: portrait) {
 	.pa {
-		padding: 2.5% 5% 0;
+		padding: 5% 5% 0;
 	}
 	h1#bo {	
 		padding: 5% 0 2.5%;
