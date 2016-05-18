@@ -78,7 +78,7 @@ div.panel-body {
 	padding: 0 35% 0;
 }
 h1#cm {
-	font-size: 8vmin;
+	font-size: 10vmin;
 	padding: 5% 0 2.5%;
 	color: #F0A554;
 }
@@ -90,10 +90,10 @@ p#cm {
 #botun {
 	background-color: #4CB3ED;
 	font-family: 'Roboto Slab', serif;
-	font-size: 4vmin;
+	font-size: 5vmin;
 	color: #F2F2F2;
-	padding: 1% 2.5%;
-	height: 10%;
+	padding: 1% 0 1%;
+	height: 12%;
 	width: 35%;
 	margin-top: 5%;
 }
@@ -125,6 +125,12 @@ p#cm {
 	a.funkc{
 		font-size: 3vmin;
 	}
+	h1#cm {
+		padding: 2.5% 0 2.5%;
+	}
+	#botun {
+		margin-top: 2.5%;
+	}
 }
 @media only screen and (max-width: 769px) and (orientation: portrait) {
 	.pa {
@@ -135,6 +141,15 @@ p#cm {
 	}
 	#lo {
 		padding: 35% 0 0;
+	}
+	h1#cm {
+		padding: 5% 0 5%;
+	}
+	#botun {
+		padding: 1% 0 1%;
+		height: 12%;
+		width: 50%;
+		margin-top: 10%;
 	}
 }
 
