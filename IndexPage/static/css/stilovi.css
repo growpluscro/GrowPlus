@@ -126,10 +126,10 @@ p#cm {
 		font-size: 3vmin;
 	}
 	h1#cm {
-		padding: 2.5% 0 2.5%;
+		padding: 1% 0 1.5%;
 	}
 	#botun {
-		margin-top: 2.5%;
+		margin-top: 1.5%;
 	}
 }
 @media only screen and (max-width: 769px) and (orientation: portrait) {
